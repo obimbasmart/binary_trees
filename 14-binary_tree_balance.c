@@ -16,8 +16,6 @@ int binary_tree_balance(const binary_tree_t *tree)
 
 	l_height = get_binary_tree_height(tree->left);
 	r_height = get_binary_tree_height(tree->right);
-
-	printf("left: is %ld\nright is %ld\n", l_height, r_height);
 	return (l_height - r_height);
 }
 
